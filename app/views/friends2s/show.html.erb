@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @friends2 %>
+
+<div>
+  <%= link_to "Edit this friends2", edit_friends2_path(@friends2) %> |
+  <%= link_to "Back to friends2s", friends2s_path %>
+
+  <%= button_to "Destroy this friends2", @friends2, method: :delete %>
+</div>
